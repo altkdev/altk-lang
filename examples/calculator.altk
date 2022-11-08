@@ -1,0 +1,10 @@
+repeat 0
+  ~ 0 repeats forever
+  ask "what is the first number" for num1
+  ask "what is the second number" for num2
+  set result to $num1 + $num2
+  say "The result is"$result
+  confirm "do you want to exit?" for exit
+  if $exit is true
+    exit
+  
