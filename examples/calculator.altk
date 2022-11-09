@@ -1,5 +1,5 @@
 repeat 0
-  ~ 0 repeats forever
+  # 0 repeats forever
   ask "what is the first number" for num1
   ask "what is the second number" for num2
   set result to $num1 + $num2
