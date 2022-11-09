@@ -1,6 +1,6 @@
 say "hello world"
-# this prints "hello world"
-# use this for comments
+// this prints "hello world"
+// use this for comments
 ask "what is your name" for name
 say "hello"$name
-# use $ to call a varable
+// use $ to call a varable
