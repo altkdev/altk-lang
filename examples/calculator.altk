@@ -5,6 +5,5 @@ repeat 0
   set result to $num1 + $num2
   say "The result is"$result
   confirm "do you want to exit?" for exit
-  if $exit is true
-    exit
+  exit if $exit // exit is only for loops
   
