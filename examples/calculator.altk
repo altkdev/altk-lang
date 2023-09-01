@@ -1,8 +1,8 @@
 repeat 0
   ask "what is the first number" for num1
   ask "what is the second number" for num2
-  set result to $num1 + $num2
-  say "The result is"$result
+  set result to num1 + num2
+  say "The result is",result
   confirm "do you want to exit?" for exit
-  exit if $exit // exit is only for loops
+  exit if $exit #exit is only for loops
   
